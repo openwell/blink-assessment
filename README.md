@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Blink Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is React Application that requires a node environment to run.
 
-## Available Scripts
+## How to run this application
 
-In the project directory, you can run:
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies by running npm install or yarn install.
+3. Start the development server by running npm start or yarn start.
+4. Open your browser and navigate to http://localhost:3000 to view the application.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Structure
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- src/index.tsx: This file is the entry point of the application.
+- src/index.css: This file contains the CSS styles for the application.
+- src/index.css: This file contains the CSS styles for the application.
+- src/pages/Home.tsx: This file contains the Home composition, which is rendered by the React.
+- src/components: Contains component for the application; 
+- src/hooks: Contains customs hooks; 
+- src/data: Contains static data; 
+- src/pages: Contains Pages which is the aggregation of components; 
+- src/types: Contains various types; 
+- src/utils: Utility functions for date formatting and manipulation. etc; 
 
-### `npm test`
+## Libraries
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- SWR: for data fetching
+- styled-components: css styling
+- date-fns: for date formatting
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `App Testing`
+To test this application run in the terminal npm run test or yarn test
+.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `App Building`
+To deploy this application to production you will need to run the script npm run build or yarn build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
