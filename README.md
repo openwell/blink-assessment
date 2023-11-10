@@ -1,6 +1,7 @@
 # Blink Assessment
+An application to help you have better conversations and rich chats.
 
-This project is React Application that requires a node environment to run.
+This project is a React Application that requires a node environment to run.
 
 ## How to run this application
 
@@ -15,13 +16,13 @@ This project is React Application that requires a node environment to run.
 - src/index.tsx: This file is the entry point of the application.
 - src/index.css: This file contains the CSS styles for the application.
 - src/index.css: This file contains the CSS styles for the application.
-- src/pages/Home.tsx: This file contains the Home composition, which is rendered by the React.
-- src/components: Contains component for the application; 
+- src/pages/Home.tsx: This file contains the Home composition, which React renders.
+- src/components: Contains components for the application; 
 - src/hooks: Contains customs hooks; 
 - src/data: Contains static data; 
 - src/pages: Contains Pages which is the aggregation of components; 
 - src/types: Contains various types; 
-- src/utils: Utility functions for date formatting and manipulation. etc; 
+- src/utils: Utility functions for date formatting and manipulation. etc.; 
 
 ## Libraries
 
